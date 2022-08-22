@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Fucking SwiftUI Blog</title>
+        <link>https://goswiftui.com/blog</link>
+        <description>Fucking SwiftUI Blog</description>
+        <lastBuildDate>Mon, 22 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[AppStore 购买成功后退款，苹果是否会保留佣金？]]></title>
+            <link>https://goswiftui.com/blog/does-apple-keep-its-commission</link>
+            <guid>does-apple-keep-its-commission</guid>
+            <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[AppStore 购买成功后退款，苹果是否会保留佣金？]]></description>
+            <content:encoded><![CDATA[<p>这里有一个有趣的问题，似乎定期重新出现，但没有明确的答案：在用户获得应用程序内购买退款后，苹果的佣金会发生什么？</p><p>根据<a href="https://developer.apple.com/support/downloads/terms/schedules/Schedule-2-and-3-20220225-English.pdf" target="_blank" rel="noopener noreferrer">付费应用程序协议</a>，如果应用程序内购买退款，所有 iOS 开发人员必须同意以下政策：</p><p><strong>“Apple 将有权保留其销售该许可应用程序的佣金，尽管已将价格退还给最终用户。”</strong></p><p>多年来，网络上有很多关于这个问题的闲聊，从 Reddit 和 Hacker News 到 Stack Overflow 和苹果开发人员论坛。这是有道理的，因为从表面上看，这项政策听起来很可怕。如果 Apple 保留 30% 的购买项目，并随后退款，开发者可能会损失很多钱。</p><p>例如，假设您拥有一个健身应用程序，并且您的一个用户为您的 100 美元年度计划购买了订阅。你付给苹果 30 美元，可以保留 70 美元。但是，如果用户为他们的购买退款，他们将获得 100 美元的退款，如果苹果有权保留 30%的佣金，您将获得 30 美元。可以理解，这让许多开发人员感到担忧。</p><p>由于围绕这个话题的不确定性，我决定通过从我的 App Store Connect 帐户中提取详细的付款报告来测试它：</p><p><img loading="lazy" alt="img" src="/assets/images/Screen-Shot-2022-08-16-at-11.59.49-AM-c2d85381d549691752efa75db2857dfb.webp" width="1024" height="164" class="img_ev3q"></p><p>如您所见，苹果在向用户发放退款时扣除了佣金<em>后</em>价格（标有“扩展合作伙伴份额”的列）。因此，苹果没有保留其 30%的佣金，我也没有损失任何钱。</p><p>底线？苹果<em>保留</em>保留佣金金额的权利，但这并不意味着<em>会的</em>。我怀疑 Apple 在欺诈或其他情有可原情况的条款和条件中包含此内容。</p><p>所以，你拥有它！</p><p>虽然从技术上讲，即使在购买退款后，苹果也有权保留其佣金，但我还没有听到任何确诊案例。只要您合法和专业地运营您的应用程序业务，您就不应该有任何可担心的事情。</p><blockquote><p>翻译至：<a href="https://www.revenuecat.com/blog/does-apple-keep-its-commission/" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/blog/does-apple-keep-its-commission/</a></p></blockquote>]]></content:encoded>
+            <category>AppStore</category>
+            <category>退款</category>
+            <category>佣金</category>
+        </item>
+    </channel>
+</rss>

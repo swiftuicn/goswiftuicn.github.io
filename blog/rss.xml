@@ -42,7 +42,7 @@
             <category>iOS</category>
         </item>
         <item>
-            <title><![CDATA[iOS 应用实现密码自动填充]]></title>
+            <title><![CDATA[使用 SwiftUI/UIKit 实现 iOS 应用密码自动填充]]></title>
             <link>https://goswiftui.com/blog/supporting-password-autofill-for-ios-appilcations</link>
             <guid>supporting-password-autofill-for-ios-appilcations</guid>
             <pubDate>Tue, 23 Aug 2022 00:00:00 GMT</pubDate>

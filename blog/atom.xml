@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://goswiftui.com/blog</id>
     <title>Fucking SwiftUI Blog</title>
-    <updated>2023-05-17T00:00:00.000Z</updated>
+    <updated>2023-06-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://goswiftui.com/blog"/>
     <subtitle>Fucking SwiftUI Blog</subtitle>
     <icon>https://goswiftui.com/img/favicon-32x32.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Swift5.9 和 Xcode15 中的新功能]]></title>
+        <id>https://goswiftui.com/blog/2023/06/8/new-features-in-Swift5.9-and-Xcode15</id>
+        <link href="https://goswiftui.com/blog/2023/06/8/new-features-in-Swift5.9-and-Xcode15"/>
+        <updated>2023-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[介绍了Xcode 15的一些新功能, 其中包括条件编译时代码的自动灰显、代码书签的添加、创建类型安全的资源标识符、预览的改进、if和switch语句作为表达式的使用以及Swift宏的支持。]]></summary>
+        <content type="html"><![CDATA[<p>多棒的主题演讲！</p><p>如果 Vision Pro 能够兑现承诺，我们可能即将迎来一些非常令人兴奋的时刻，就像 15 年前发布原始 iPhone 时一样 🤩</p><p>但我相信你已经听说了主题演讲中宣布的所有信息。所以我就不再多说了。</p><p>相反，我一旦有机会，就立刻安装了 Xcode 15，并开始探索寻找所有我能找到的酷炫新功能！</p><p>现在我想与你分享我的发现 😌</p><p><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/748b03a9-a7de-4faf-b5a0-86a1773b4972/Screen+Recording+2023-06-06+at+00.04.28.gif?format=2500w" alt="img" class="img_fqbo"></p><p>让我们从这个简单而实用的功能开始：在使用条件编译时，不匹配当前目标的代码将被 Xcode 自动变为灰色。</p><p><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/4c0baaae-9afb-4db6-b7d5-dd963deea413/Screen+Recording+2023-06-06+at+01.38.28.gif?format=2500w" alt="img" class="img_fqbo"></p><p>另一个非常酷的生活质量改进是添加了代码书签。</p><p>如果像我一样，你曾经设置禁用断点来跟踪代码中的特定位置，那么这种变通方法很快就会成为过去的事情 👌</p><p><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/eb7de4fd-bbfb-447f-956e-78e92581e68c/Screen%2BRecording%2B2023-06-06%2Bat%2B00.41.51.gif?format=1500w" alt="img" class="img_fqbo"></p><p>Xcode 15 还首次支持了一个非常有用的功能：为存储在 AssetCatalog 中的资源创建类型安全的标识符。</p><p>我相信很多人目前正在使用 SwiftGen 来实现这个目的。</p><p>从我所了解的情况来看，这个新功能甚至与较旧版本的 iOS 向后兼容！</p><p><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/21a8c074-1a11-4749-92ff-fed549880559/Screen+Recording+2023-06-06+at+00.21.58.gif?format=2500w" alt="img" class="img_fqbo"></p><p>预览功能也得到了很大改进！</p><p>首先，生成预览的代码现在要简单得多，得益于新的 Swift 宏“#Preview”的使用。</p><p>更好的是：预览现在也适用于 UIKit 和 AppKit！</p><p>![</p><p>img](<a href="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/88d6c588-d672-4d0b-870f-afb1fb9438d1/Fx5JbemaYAA73Ub-2.png?format=1500w" target="_blank" rel="noopener noreferrer">https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/88d6c588-d672-4d0b-870f-afb1fb9438d1/Fx5JbemaYAA73Ub-2.png?format=1500w</a>)</p><p>Swift 5.9 带来了一个简单的新功能，我特别喜欢：现在可以将“if”和“switch”用作表达式！</p><p><img loading="lazy" src="https://images.squarespace-cdn.com/content/v1/63139bb1e1a1a078e071f30c/7124ead6-219b-4d44-aa09-fffa659fbe1d/Fx5ZdmBaIAA4bt6-2.jpeg?format=1500w" alt="img" class="img_fqbo"></p><p>最后，还有一个令我非常兴奋的新增功能：对 Swift 宏的支持。</p><p>我还没有太多机会尝试宏（某些时候，你必须要睡觉一下 🤪），但我对它们带来的所有可能性感到非常兴奋！</p><p>简而言之，宏是在编译时调用的小型 Swift 程序，能够生成新的源代码。</p><p>你可以将它们想象成基本上提供了与 Sourcery 相同的可能性，但这次直接内置在语言中。</p><p>Apple 分享了一些使用宏的示例，比如上面的示例，其中宏@CaseDetection 自动生成了用于测试一个值是否对应给定情况的属性 👌</p><blockquote><ul><li>原文(英文)：<a href="https://www.swiftwithvincent.com/newsletter/there-are-so-many-cool-new-features-in-swift-and-xcode" target="_blank" rel="noopener noreferrer">https://www.swiftwithvincent.com/newsletter/there-are-so-many-cool-new-features-in-swift-and-xcode</a></li></ul></blockquote>]]></content>
+        <author>
+            <name>GoSwiftUI</name>
+            <uri>https://goswiftui.com</uri>
+        </author>
+        <category label="xcode" term="xcode"/>
+        <category label="Swift" term="Swift"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用代码示例解释 Swift 中的 Ranges]]></title>
         <id>https://goswiftui.com/blog/2023/05/17/swift-ranges-explained</id>

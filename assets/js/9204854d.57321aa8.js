@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8835],{5093:s=>{s.exports=JSON.parse('{"label":"OSLog","permalink":"/blog/tags/os-log","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

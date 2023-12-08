@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[241],{5074:s=>{s.exports=JSON.parse('{"label":"SFSafariViewController","permalink":"/blog/tags/sf-safari-view-controller","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

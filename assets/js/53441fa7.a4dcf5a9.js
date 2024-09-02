@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[6606],{5774:a=>{a.exports=JSON.parse('{"label":"async/await","permalink":"/blog/tags/async-await","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

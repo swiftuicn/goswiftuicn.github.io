@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8217],{2853:s=>{s.exports=JSON.parse('{"label":"iOS 17","permalink":"/blog/tags/i-os-17","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

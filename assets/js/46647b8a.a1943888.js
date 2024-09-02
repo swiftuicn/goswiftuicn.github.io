@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8648],{7446:s=>{s.exports=JSON.parse('{"label":"App Store","permalink":"/blog/tags/app-store","allTagsPath":"/blog/tags","count":4,"unlisted":false}')}}]);
